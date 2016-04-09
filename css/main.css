@@ -981,7 +981,7 @@ section.projectsPage {
     z-index: 50
 }
 
-.item.work a .overlay .button {
+.item.work a .overlay .projectButton {
     margin: -1.625rem 0 0 -4.4375rem;
     position: absolute;
     z-index: 100;
@@ -1000,7 +1000,7 @@ section.projectsPage {
     height: 200px;
 }
 
-.button {
+.projectButton {
     font-size: 0.75rem;
     line-height: 3.05rem;
     padding: 0.9375rem 1.5625rem;
@@ -1015,7 +1015,7 @@ section.projectsPage {
 }
 
 
-.button, .button--white, .icon {
+.projectButton, .button--white, .icon {
     display: inline-block;
 }
 
