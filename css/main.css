@@ -702,8 +702,8 @@ h1, p{
 
 
     .lpMiddle p {
-        text-transform: uppercase;
         font-family: 'Orbitron', sans-serif;
+        color: white;
         font-size: 30px;
         letter-spacing: 1px;
     }
