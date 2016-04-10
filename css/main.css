@@ -778,8 +778,16 @@ h1, p{
 
 .demo .large-header {
    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
-   background-size: cover;
    background-attachment: fixed;
+   width:100%;
+   height:100%;
+   margin:0;
+   background-position: center;
+   background-repeat:no-repeat;
+   opacity:1;
+   display:table;
+   text-align:center;
+   padding-left:0;
 
 }
 
@@ -938,6 +946,8 @@ section.projectsPage {
 .section--white {
     background: #fff;
     padding-bottom: 110px;
+    width: 100%;
+    height: 650px;
 }
 
 .item.work {
@@ -1100,7 +1110,7 @@ a {
     height:auto;
     margin:0;
     background-color:#262626;
-    padding:140px;
+    padding:120px;
 }
 
 .contactPage img {
