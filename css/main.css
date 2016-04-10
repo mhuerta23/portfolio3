@@ -797,12 +797,18 @@ h1, p{
 
 .demo .main-title {
    text-transform: uppercase;
-   font-size: 4.2em;
+   font-size: 2.3em;
    letter-spacing: 0.1em;
 }
 
 .main-title .thin {
    font-weight: 200;
+   font-size: .5em;
+}
+
+.job-title {
+  margin-top: 8%;
+  font-size: 1.3em;
 }
 
 @media only screen and (max-width: 768px) {
