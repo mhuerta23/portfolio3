@@ -1067,68 +1067,13 @@ section.projectsPage {
 
 .overlay {
     background: #B40404;
-    background: rgba(77, 210, 255, 0.75);
+    background: rgba(225, 132, 123, 0.75);
 }
 
 a {
     transition: all 0.3s ease;
     color: #C32F34;
     text-decoration: none;
-}
-
-
-/* RESUME */
-
-.resumePage{
-    height:450px;
-    width:100%;
-    background-color:#f2f2f2;
-    text-align:center;
-}
-
-.resblock{
-    width:100%;
-    height:450px;
-    line-height:40px;
-    vertical-align:center;
-    text-align: center;
-    display:table;
-}
-
-.resblock:before{
-    content: '';
-    display: inline-block;
-    height:100%;
-    vertical-align:middle;
-}
-
-.resume-download{
-    display:inline-block;
-    vertical-align:center;
-    width:100%;
-}
-
-
-.resume{
-    font-family:'Open Sans', verdana;
-    height:100%;
-    vertical-align:center;
-    text-transform:uppercase;
-}
-
-.button--white {
-    font-size: 2rem;
-    line-height: 3rem;
-    padding: 1rem 1.5rem;
-    transition: all 0.3s ease;
-    color: #4dd2ff;
-    cursor: pointer;
-    border: 2px #4dd2ff;
-    border: 2px #4dd2ff;
-    background: transparent;
-    font-weight: 500;
-    text-align: center;
-    display: inline-block;
 }
 
 
