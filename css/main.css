@@ -664,7 +664,7 @@ h1, p{
         width:100%;
         height:100%;
         margin:0;
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/raindowCode.jpg);
+        background-image: ,url(../img/raindowCode.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat:no-repeat;
@@ -712,60 +712,6 @@ h1, p{
 
 
 
-/*/* Header Animation */
-/*.large-header {
-  position: relative;
-  width: 100%;
-  background: #333;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center center;
-  z-index: 1;
-}*/
-
-/*#large-header {
-  background-image: url('http://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
-  background-attachment: fixed;
-}*/
-
-/*name title*/
-/*.main-title {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  color: #f9f1e9;
-  text-align: center;
-  font-family: 'Orbitron', sans-serif;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%,-50%,0);
-  transform: translate3d(-50%,-50%,0);
-}*/
-
-/*web dev title*/
-/*.job-title {
-  margin-top: 5%;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.demo-1 .main-title {
-  text-transform: uppercase;
-  font-size: 4.2em;
-  letter-spacing: 0.1em;
-}
-
-.main-title .thin {
-  font-weight: 200;
-}
-
-@media only screen and (max-width : 768px) {
-  .demo-1 .main-title {
-    font-size: 3em;
-  }
-}
-*/
-
-
 .large-header {
    position: relative;
    width: 100%;
@@ -777,11 +723,11 @@ h1, p{
 }
 
 .demo .large-header {
-   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+   background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) ,url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+   background-attachment: fixed;
    position:absolute;
    top:0;
    left:0;
-   background-attachment: fixed;
    width:100%;
    height:100%;
    margin:0;
@@ -796,6 +742,7 @@ h1, p{
 
 .main-title {
    position: absolute;
+   font-family: 'Orbitron', sans-serif;
    margin: 0;
    padding: 0;
    color: #F9F1E9;
@@ -808,6 +755,7 @@ h1, p{
 
 .demo .main-title {
    text-transform: uppercase;
+
    font-size: 2.3em;
    letter-spacing: 0.1em;
 }
@@ -1235,7 +1183,7 @@ a {
 
      .aboutPage {
         width:100%;
-        height:800px;
+        height:850px;
         margin:0;
     }
 }
